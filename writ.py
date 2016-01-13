@@ -22,10 +22,8 @@ while (count < endCount):
 	else:
 		print "You have already entered this word. Try again"
 
-#print list
 rand = random.randint(0,endCount-1)
 pyWord = list[rand]
-#print pyWord
 print "Ok now you have to guess which word out of all you have entered is my favourite"
 myWord = raw_input("Make your guess ")
 while myWord != pyWord:
